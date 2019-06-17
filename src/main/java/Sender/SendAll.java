@@ -1,8 +1,8 @@
 package Sender;
 
-public class SendAll implements SendMessage {
+public class SendAll <M> implements SendMessage <M>{
 
-    public void send(String send) {
+    public void send(M send) {
         for (TypeMessage type: TypeMessage.values()) {
 
             try {
