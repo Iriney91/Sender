@@ -10,9 +10,10 @@ public class Main {
        // System.out.println(message);
        // System.out.println(message2);
 
-        MultiMessage multiMessage = new MultiMessage(MessageFactory.createSendMessageList(TypeMessage.EMAIL, TypeMessage.SMS));
+//        MultiMessage multiMessage = new MultiMessage(MessageFactory.createSendMessageList(TypeMessage.EMAIL, TypeMessage.SMS));
+        MultiMessage multiMessage = new MultiMessage(TypeMessage.EMAIL, TypeMessage.SMS);
 
-       // multiMessage.send("///");
+        multiMessage.send("///");
         System.out.println(multiMessage);
 
 
