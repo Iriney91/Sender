@@ -17,15 +17,11 @@ public class MessageFactory {
         }
     }
 
-    public static ArrayList<SendMessage> createSendMessageList(TypeMessage... typeMessages) {
-
-        ArrayList<SendMessage> messages = new ArrayList<SendMessage>();
-
+    public static ArrayList <SendMessage> createSendMessageList(TypeMessage... typeMessages) throws Exception {
+        ArrayList <SendMessage> messages = new ArrayList<SendMessage>();
         for (TypeMessage type : typeMessages) {
-//            messages.add(createSendMessage(type));
+            messages.add(createSendMessage(type));
         }
-
         return messages;
     }
-
 }
