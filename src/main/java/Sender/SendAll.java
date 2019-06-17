@@ -1,3 +1,5 @@
+package Sender;
+
 public class SendAll implements SendMessage {
 
     public void send(String send) {

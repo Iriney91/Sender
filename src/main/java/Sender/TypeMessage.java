@@ -1,3 +1,5 @@
+package Sender;
+
 public enum TypeMessage {
 
     EMAIL,
