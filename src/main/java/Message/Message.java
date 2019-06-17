@@ -1,4 +1,4 @@
 package Message;
 
-public class Message {
+public class Message{
 }

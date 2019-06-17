@@ -1,7 +1,7 @@
 package Sender;
 
-public interface SendMessage {
+public interface SendMessage <M> {
 
-    void send (String message) throws Exception;
+    void send (M message) throws Exception;
 
 }

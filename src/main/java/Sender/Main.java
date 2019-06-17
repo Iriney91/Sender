@@ -12,7 +12,7 @@ public class Main {
 
         MultiMessage multiMessage = new MultiMessage(MessageFactory.createSendMessageList(TypeMessage.EMAIL, TypeMessage.SMS));
 
-        multiMessage.send("///");
+       // multiMessage.send("///");
         System.out.println(multiMessage);
 
 
